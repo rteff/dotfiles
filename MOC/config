@@ -1,3 +1,6 @@
+##########################
+#      Rteff config      #
+##########################
 
 # Example: MusicDir = "/home/joe/music"
 MusicDir = ~/Music/
@@ -83,7 +86,7 @@ ShowTime = yes
 # Show time played as a percentage in the time progress bar.
 ShowTimePercent = yes
 
-
+# THEME
 Theme = /usr/share/moc/themes/rteff_theme
 
 # MOC directory
