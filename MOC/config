@@ -1,0 +1,105 @@
+
+# Example: MusicDir = "/home/joe/music"
+MusicDir = ~/Music/
+
+# Start in the music directory by default? 
+StartInMusicDir = yes
+
+# Show file titles (title, author, album) instead of file names?
+ReadTags = yes
+
+# How to sort?  FileName is the option's only value for now.
+Sort = FileName
+
+# Show errors in the streams (for example, broken frames in MP3 files)?
+ShowStreamErrors = yes
+
+# Set playback toggles.
+Repeat = no
+Shuffle = no
+AutoNext = yes
+
+# Default FormatString:
+#   %n - Track number
+#   %a - Artist
+#   %A - Album
+#   %t - Title
+#   %(X:TRUE:FALSE) - Ternary expression: if X exists, do TRUE,
+#                     otherwise FALSE.  The escape character must
+#                     be doubled (i.e., '\\').  (See zshmisc
+#                     documentation for more information.)
+FormatString = "%(n:%n :)%(a:%a - :)%(t:%t:)%(A: \(%A\):)"
+
+
+#Input and output buffer sizes (in kilobytes).
+#InputBuffer = 512                  # Minimum value is 32KB
+#OutputBuffer = 512                 # Minimum value is 128KB
+
+
+# How much to fill the input buffer before playing (in kilobytes)?
+# This can't be greater than the value of InputBuffer.  While this has
+# a positive effect for network streams, it also causes the broadcast
+# audio to be delayed.
+#Prebuffering = 64
+
+# don't use HTTP proxy server for internet streams.
+
+
+# Sound driver - OSS, ALSA, JACK, SNDIO (on OpenBSD) or null (only for
+# debugging).  You can enter more than one driver as a colon-separated
+# list.  The first working driver will be used.
+SoundDriver = ALSA:JACK:OSS
+
+
+# ALSA output settings.  If you need to dump the audio produced by MOC
+# to a file for diagnostic purposes, the following setting of 'ALSADevice'
+# should do that:
+#
+#    ALSADevice=tee:hw,'/tmp/out.wav',wav
+#
+ALSADevice = default
+ALSAMixer1 = PCM
+ALSAMixer2 = Master
+ALSAStutterDefeat = no
+Softmixer_SaveState = yes
+Equalizer_SaveState = yes
+
+
+
+# Show files with dot at the beginning?
+ShowHiddenFiles = no
+
+# Hide file name extensions?
+HideFileExtension = no
+
+# Show file format in menu?
+ShowFormat = yes
+
+# Show file time in menu?  Possible values: 'yes', 'no' and 'IfAvailable'
+# (meaning show the time only when it is already known, which often works
+# faster).
+ShowTime = yes
+
+# Show time played as a percentage in the time progress bar.
+ShowTimePercent = yes
+
+
+Theme = /usr/share/moc/themes/rteff_theme
+
+# MOC directory
+MOCDir = ~/.moc
+
+# Should MOC precache files to assist gapless playback?
+Precache = yes
+
+# Remember the playlist after exit?
+SavePlaylist = yes
+
+# When using more than one client (interface) at a time, do they share
+# the playlist?
+SyncPlaylist = yes
+
+# When the song changes, should the menu be scrolled so that the currently
+# played file is visible?
+FollowPlayedFile = no
+
