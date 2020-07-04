@@ -9,7 +9,7 @@
 
 background				= default	default
 frame					= cyan   	black
-window_title			= blue	black   underline
+window_title			= cyan	black   bold,underline
 directory				= blue		black	bold
 selected_directory		= cyan		black	bold,underline
 playlist				= white		black	bold
