@@ -1,11 +1,8 @@
-###########################################################
-#
-#                      Rteff Theme
-#
-# Email        rtefforg@gmail.com
-# GitHub       https://github.com/rteff
-# 
-##########################################################
+#######################################################################
+#   Filename: .moc/rteff_theme                                        #
+# Maintainer: Vyacheslav Dmitriev <rtefforg@gmail.com>                # 
+#        URL: https://github.com/rteff/dotfiles                       #
+#######################################################################
 
 background				= default	default
 frame					= cyan   	black
