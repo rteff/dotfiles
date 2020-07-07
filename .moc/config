@@ -1,6 +1,8 @@
-##########################
-#      Rteff config      #
-##########################
+#######################################################################
+#   Filename: .moc/config                                             #
+# Maintainer: Vyacheslav Dmitriev <rtefforg@gmail.com>                # 
+#        URL: https://github.com/rteff/dotfiles                       #
+#######################################################################
 
 MusicDir = ~/Music/
 MOCDir = ~/.moc
