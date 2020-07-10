@@ -1,9 +1,8 @@
 # Neovim
+
 > **Note**: Спасибо моему другу [Username77177](https://github.com/Username77177) за разрешение работать с его [config](https://github.com/Username77177/dotfiles/tree/i3-ground-rain/config/nvim) 
 
-Follow these steps to make it work
-
-## Quick Start
+### Quick Start
  [CCLS Wiki](https://github.com/MaskRay/ccls/wiki)
  
  [COC-nvim](https://github.com/neoclide/coc.nvim)
@@ -12,12 +11,12 @@ Follow these steps to make it work
 * sudo snap install ccls --classic # Автодополнение для C++ и C
 * sudo npm -g install instant-markdown-d # Просмотр файлов с расширением .md в браузере
 
-## In nvim
+### In nvim
 * in nvim, run `:PlugInstall`
 * in nvim, run `:CocInstall coc-clangd`
 > **Note**: If you've configured `clangd` as a languageServer in `coc-settings.json`, you should remove it to avoid running clangd twice!
 
-## Hotkeys
+### Hotkeys
 `Leader (L) - Space`
 - `jkl` - ESC
 - `jks` - ESC + сохранить (*:w*)
