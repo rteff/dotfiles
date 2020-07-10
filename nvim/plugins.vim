@@ -64,16 +64,16 @@ Plug 'easymotion/vim-easymotion'
 Plug 'lervag/vimtex'
 
 " Поддержка С, C++
-" Plug 'xavierd/clang_complete'
+Plug 'xavierd/clang_complete'
 
 " Deoplete
-" Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim'
 
 " Python3 IDE в NeoVim
-"Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 " Что-то типо Jupyter'а прямо в Vim
-" Plug 'metakirby5/codi.vim'
+Plug 'metakirby5/codi.vim'
 
 " Поддержка синтаксиса многих ЯП
 Plug 'sheerun/vim-polyglot'
