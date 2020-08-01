@@ -6,6 +6,10 @@
  [CCLS Wiki](https://github.com/MaskRay/ccls/wiki)
  
  [COC-nvim](https://github.com/neoclide/coc.nvim)
+
+ Download [vim-plug](https://github.com/junegunn/vim-plug)
+ 
+Download other additions
 * sudo pip3 install jedi # Автодополнение для Python3
 * pip3 install --user pynvim #Совместимость NeoVim + Python3
 * sudo snap install ccls --classic # Автодополнение для C++ и C
