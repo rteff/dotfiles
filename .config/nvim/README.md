@@ -11,7 +11,7 @@
  
 Download other additions
 * sudo pip3 install jedi # Автодополнение для Python3
-* pip3 install --user pynvim #Совместимость NeoVim + Python3
+* sudo pip3 install --user pynvim #Совместимость NeoVim + Python3
 * sudo snap install ccls --classic # Автодополнение для C++ и C
 * sudo npm -g install instant-markdown-d # Просмотр файлов с расширением .md в браузере
 
