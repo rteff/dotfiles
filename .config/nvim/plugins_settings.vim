@@ -130,16 +130,5 @@ autocmd FileType html noremap <buffer> <leader>b :call HtmlBeautify()<cr>
 " for css or scss
 autocmd FileType css noremap <buffer> <leader>b :call CSSBeautify()<cr>
 
-" OneDark
-" 256 цветов для OneDark
-" let g:onedark_termcolors = 16
-if (has("autocmd") && !has("gui_running"))
-  augroup colors
-    autocmd!
-    let s:background = { "gui": "#282C34", "cterm": "235", "cterm16": "0" }
-    autocmd ColorScheme * call onedark#set_highlight("Normal", { "bg": s:background }) "No `fg` setting
-  augroup END
-endif
-
 " Startify
 nmap <Leader>h :Startify<CR>

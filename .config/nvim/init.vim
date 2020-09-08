@@ -81,7 +81,9 @@ set termguicolors
 syntax enable
 
 " Тема для **NeoVim**
-colorscheme onedark
+" colorscheme onedark 
+" packadd! dracula
+colorscheme dracula
 "# UX config
 
 " Делаем автозапуск Omnifunc (автодополнение)

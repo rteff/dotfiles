@@ -84,4 +84,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 " StartScreen
 Plug 'mhinz/vim-startify'
 
+Plug 'dracula/vim'
+
 call plug#end()
