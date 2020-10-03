@@ -1,0 +1,39 @@
+{
+    "window.zoomLevel": -0.3,
+
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.startupEditor": "newUntitledFile",
+
+    "files.autoSave": "afterDelay",
+
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 12,
+    "editor.cursorStyle": "underline",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.links": true,
+    "editor.minimap.enabled": false,
+    
+    "C_Cpp.updateChannel": "Insiders",
+    "files.insertFinalNewline": true,
+    
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "github.gitAuthentication": false,
+    
+    "python.pythonPath": "/usr/local/bin/python3",
+    
+    "markdown.preview.fontSize": 12,
+    "markdown-preview-enhanced.codeBlockTheme": "darcula.css",
+    
+    "files.exclude": 
+    {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/.svn": true,
+        "**/bin": true,
+        "**/obj": true
+    }
+}
